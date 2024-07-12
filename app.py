@@ -1,4 +1,6 @@
 import streamlit as st
+import sys
+sys.path.append('.')
 import os
 from utils import get_answer, text_to_speech, autoplay_audio, speech_to_text, initialize_session_state
 from audio_recorder_streamlit import audio_recorder
